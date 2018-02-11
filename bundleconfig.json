@@ -1,0 +1,32 @@
+[
+  {
+    "outputFileName": "css/cv.min.css",
+    "inputFiles": [
+      "css/cv.css"
+    ]
+  },
+  {
+    "outputFileName": "css/reset.min.css",
+    "inputFiles": [
+      "css/reset.css"
+    ]
+  },
+  {
+    "outputFileName": "css/style.min.css",
+    "inputFiles": [
+      "css/style.css"
+    ]
+  },
+  {
+    "outputFileName": "js/index.min.js",
+    "inputFiles": [
+      "js/index.js"
+    ]
+  },
+  {
+    "outputFileName": "js/prefixfree.min.min.js",
+    "inputFiles": [
+      "js/prefixfree.min.js"
+    ]
+  }
+]
