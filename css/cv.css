@@ -751,7 +751,6 @@
 	    margin-left: auto;
 	    margin-right: auto;
 	    -webkit-animation: sendMail 750ms infinite alternate ease-in-out;
-	    animation: sendMail 750ms infinite alternate ease-in-out
 	}
 	
 	@-webkit-keyframes sendMail {
