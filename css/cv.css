@@ -132,7 +132,9 @@
 	.btn.blue {
 	    background: #00A8FF
 	}
-	
+        .btn.yellow {
+            background: #daa520
+        }
 	.btn.green {
 	    background: #38DE8A
 	}

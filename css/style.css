@@ -27,7 +27,7 @@ border-radius:4px;text-transform:uppercase;border:0;position:relative;box-shadow
 .btn:active{top:2px;box-shadow:none}
 .btn.blue{background:#00A8FF}
 .btn.green{background:#38DE8A}
-.btn.yellow {
+    .btn.yellow {
         background: #daa520
     }
 .btn + .btn {margin-left:15px}
