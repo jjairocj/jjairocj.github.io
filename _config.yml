@@ -65,10 +65,8 @@ sitemap:
     priority_name: "priority"
 
 # paginate
-gems: [jekyll-paginate]
-paginate: 6
-
-#plugins
-plugins:
+gems: 
     - jekyll-sitemap
+    - jekyll-paginate
+paginate: 6
 
