@@ -3,23 +3,70 @@
   <channel>
     <title>Jhon Jairo Cruz</title>
     <description></description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Feb 2018 00:32:16 -0500</pubDate>
-    <lastBuildDate>Tue, 13 Feb 2018 00:32:16 -0500</lastBuildDate>
+    <link>https://jhonjairocruz.com/</link>
+    <atom:link href="https://jhonjairocruz.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Feb 2018 14:11:35 -0500</pubDate>
+    <lastBuildDate>Tue, 13 Feb 2018 14:11:35 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Cursos online de las mejores universidades del mundo</title>
-        <description>
+        <description>&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#universidad-de-oxford-reino-unido&quot; id=&quot;markdown-toc-universidad-de-oxford-reino-unido&quot;&gt;Universidad de Oxford. Reino Unido.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#universidad-de-cambridge-reino-unido&quot; id=&quot;markdown-toc-universidad-de-cambridge-reino-unido&quot;&gt;Universidad de Cambridge. Reino Unido.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#universidad-de-stanford-estados-unidos&quot; id=&quot;markdown-toc-universidad-de-stanford-estados-unidos&quot;&gt;Universidad de Stanford. Estados Unidos.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 Esta selección de universidades no lo he hecho yo, este ranking fue realizado en el 2018 por la revista Times Higher Education (THE), que diseña sus listas de las mejores universidades utilizando 13 indicadores de rendimiento cuidadosamente calibrados.
 
 &lt;img src=&quot;https://xyleme.com/wp-content/uploads/2015/04/Image-Blog-Want-To-Know-What-Personalized-Learning-Looks-Like.png&quot; alt=&quot;&quot; /&gt;
 
+&lt;h2 id=&quot;universidad-de-oxford-reino-unido&quot;&gt;Universidad de Oxford. Reino Unido.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;De la pobreza a la prosperidad:comprensión del desarrollo económico:&lt;/strong&gt; Un curso gratuito en inglés de seis semanas de duración. Te enseñará el papel de los gobiernos y los procesos políticos, sociales y económicos clave que elevan a cualquier sociedad de la pobreza a la prosperidad. &lt;a href=&quot;https://www.edx.org/course/poverty-prosperity-understanding-oxfordx-oxbsg01x-0&quot;&gt;Una vez completado, puedes pagar para obtener el certificado verificado.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;universidad-de-cambridge-reino-unido&quot;&gt;Universidad de Cambridge. Reino Unido.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Inside IELTS: Preparación para la prueba con los expertos:&lt;/strong&gt; Un curso gratuito de cinco semanas creado por la Cambridge English Language Assessment, la misma encargada de diseñar los importantes exámenes de inglés con sus pruebas IELTS, &lt;a href=&quot;https://www.futurelearn.com/courses/cambridge-english-ielts/2&quot;&gt;y que te permite entender y practicar para aprobarla.&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Enseñando tu materia en inglés:&lt;/strong&gt; Un curso gratuito de cinco semanas diseñado para docentes. Te proporciona una serie de trucos de lenguaje funcional y consejos prácticos para poder enseñar tu materia en inglés, &lt;a href=&quot;https://www.futurelearn.com/courses/cambridge-teach-in-english&quot;&gt;ya sea matemáticas como ciencia o historia.&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+Para los colegas informáticos les dejo esta lista de la
+
+&lt;h2 id=&quot;universidad-de-stanford-estados-unidos&quot;&gt;Universidad de Stanford. Estados Unidos.&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Criptografía I:&lt;/strong&gt; Un curso gratuito en inglés de siete semanas de duración. Aprenderás el funcionamiento interno de los sistemas criptográficos y cómo usarlos correctamente en aplicaciones del mundo real. &lt;a href=&quot;https://www.coursera.org/learn/crypto&quot;&gt;Una vez completado, puedes pagar para obtener el certificado verificado.&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Introducción a la Inteligencia Artificial:&lt;/strong&gt; Un curso gratuito en inglés de dieciséis semanas de duración. En este curso, aprenderás los conceptos básicos de la IA moderna, &lt;a href=&quot;https://eu.udacity.com/course/intro-to-artificial-intelligence--cs271&quot;&gt;así como algunas de las aplicaciones más representativas de la IA.&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Minería de conjuntos de datos masivos:&lt;/strong&gt; Un curso gratuito en inglés de siete semanas de duración. Introducción a los modernos sistemas de archivos distribuidos y MapReduce, que incluye lo que distingue a los buenos algoritmos de MapReduce de los buenos algoritmos en general. El resto del curso está dedicado a algoritmos para extraer modelos e &lt;a href=&quot;https://lagunita.stanford.edu/courses/course-v1:ComputerScience+MMDS+SelfPaced/about&quot;&gt;información de grandes conjuntos de datos.&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;strong&gt;Modelos gráficos probabilísticos 1: Representación:&lt;/strong&gt; Un curso gratuito en inglés de cinco semanas de duración. Aprenderás sobre distribuciones conjuntas sobre un gran número de variables aleatorias que interactúan entre sí, las cuales se basan en conceptos de la teoría de la probabilidad, &lt;a href=&quot;https://www.coursera.org/learn/probabilistic-graphical-models&quot;&gt;algoritmos de gráficos, aprendizaje automático y más.&lt;/a&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+También están disponibles cursos de emprendimiento, electrónica, Python, Estadística y R, contabilidad, matemática, entre otros, los cuales los puedes encontrar siguiendo el enlace de la fuente:
+
+“Nunca pares, nunca te conformes, hasta que lo bueno sea lo mejor, y lo mejor sea excelente”
+
+Tomado descaradamente de: &lt;a href=&quot;https://www.xataka.com/otros/los-mejores-cursos-gratis-online-de-las-diez-mejores-universidades-del-mundo&quot;&gt;Xataka&lt;/a&gt;
+
 </description>
         <pubDate>Mon, 12 Feb 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2018/02/12/cursos-online-de-las-mejores-universidades-del-mundo/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/12/cursos-online-de-las-mejores-universidades-del-mundo/</guid>
+        <link>https://jhonjairocruz.com/2018/02/12/cursos-online-de-las-mejores-universidades-del-mundo/</link>
+        <guid isPermaLink="true">https://jhonjairocruz.com/2018/02/12/cursos-online-de-las-mejores-universidades-del-mundo/</guid>
         
         <category>cursos</category>
         

@@ -50,6 +50,25 @@ tag_dir: tag/
 # excerpt
 excerpt_separator: "\n\n\n\n"
 
+#sitemap
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+        - "/_post"
+        - "/about"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
 # paginate
 gems: [jekyll-paginate]
 paginate: 6
+
+#plugins
+plugins:
+    - jekyll-sitemap
+
