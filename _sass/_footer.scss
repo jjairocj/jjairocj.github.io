@@ -1,64 +1,200 @@
-.site-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
 
-    font-family: 'Raleway', sans-serif;
+$primary-light-blue: #8DB9ED;
+$primary-line-color: #ccc;
+
+html, body {
+    height: 100%
+}
+ul {
+    list-style: none
+}
+a {
+    text-decoration: none
+}
+.generic-anchor {
+    color: $primary-light-blue;
+    &:visited {
+        color: $primary-light-blue
+    }
+    &:hover {
+        color: $primary-line-color
+    }
+}
+.flex-rw {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+footer {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    //This justify-content is essentially unnecessary in Firefox and Chrome due to the flex: 1 1 auto on the main.  However, it's needed to push the footer down on IE11
+    justify-content: space-between;
+    background: rgb(55,55,55);
+    margin-top: auto;
+    width: 100%
+}
+.footer-list-top {
+    width: 33.333%
+}
+.footer-list-top > li {
     text-align: center;
-    // margin-top: 50px;
-    background-color: #2b2b3c;
-    box-shadow: 0 -2px 4px 1px rgba(0,0,0,0.5);
-    color: #bbb;
-    .wrapper {
-        width: 1140px;
-        margin: 0 auto;
-        padding: 15px 0;
+    padding-bottom: 10px
+}
+.footer-list-header {
+    padding: 10px 0 5px 0;
+    color: #fff;
+    font: 2.3vw 'Raleway', sans-serif
+}
+.footer-list-anchor {
+    font: 1.3em 'Raleway', sans-serif
+}
+.footer-social-section {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 30px;
+}
+.footer-social-section::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 10px;
+    border-top: 1px solid $primary-line-color;
+    width: calc(100% - 20px)
+}
+.footer-social-overlap {
+    position: relative;
+    z-index: 2;
+    background: rgb(55,55,55);
+    padding: 0 20px;
+    font-size:0.7em;
+}
+.footer-social-connect {
+    display: flex;
+    align-items: center;
+    font-size: 2.0em;
+    font-family: 'Raleway', sans-serif;
+    color: #fff
+}
+.footer-social-small {
+    font-size: 0.6em;
+    padding: 0px 20px
+}
+.footer-social-overlap > a {
+    font-size: 3em
+}
+.footer-social-overlap > a:not(:first-child) {
+    margin-left: 0.38em
+}
+.footer-bottom-section {
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid $primary-line-color;
+    margin-top: 10px;
+}
+.footer-bottom-section > div:first-child {
+    margin-right: auto
+}
+.footer-bottom-wrapper {
+    font-size: 0.8em;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+.footer-address {
+    display: inline;
+    font-style: normal
+}
+@media only screen and (max-width: 768px) {
+    .footer-list-header {
+        font-size: 2em
+    }
+    .footer-list-anchor {
+        font-size: 1.1em
+    }
+    .footer-social-connect {
+        font-size: 2.0em
+    }
+    .footer-social-overlap > a {
+        font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+        font-size: 0.8em
+    }
+}
+@media only screen and (max-width: 568px) {
+    main {
+        font-size: 5em
+    }
+    .footer-list-top {
+        width: 100%
+    }
+    .footer-list-header {
+        font-size: 3em;
+    }
+    .footer-list-anchor {
+        font-size: 1.5em
+    }
+    .footer-social-section {
+        justify-content: center
+    }
+    .footer-social-section::after {
+        top: 25%
+    }
+    .footer-social-connect {
+        margin-bottom: 10px;
+        padding: 0 10px
+    }
+    .footer-social-overlap {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-social-icons-wrapper {
+        width: 100%;
+        padding: 0
+    }
+    .footer-social-overlap > a:not(:first-child) {
+        margin-left: 20px;
+    }
+    .footer-bottom-section {
+        padding: 0 5px 10px 5px
+    }
+    .footer-bottom-wrapper {
         text-align: center;
-        font-size: 14px;
-        p {
-            margin: 0;
-            line-height: 1.6;
-        }
-        .contact {
-            display: inline-block;
-            a {
-                color: #ccc;
-                transition: 0.3s ease;
-                &:hover {
-                    color: #fff;
-                }
-                i {
-                    margin: 0 5px;
-                    font-size: 20px;
-                }
-            }
-        }
-        .description {
-            display: inline-block;
-        }
-        .power {
-            a {
-                color: #8F90C5;
-                transition: 0.3s ease;
-                &:hover {
-                    color: #fff;
-                }
-            }
-        }
+        width: 100%;
+        margin-top: 10px
     }
 }
-@media screen and (max-width:1200px) and (min-width: 770px) {
-    .site-footer {
-        .wrapper {
-            width: 90%;
-        }
+@media only screen and (max-width: 480px) {
+    .footer-social-overlap > a {
+        margin: auto
+    }
+    .footer-social-overlap > a:not(:first-child) {
+        margin-left: 0;
+    }
+    .footer-bottom-rights {
+        display: block
     }
 }
-@media screen and (max-width: 770px) {
-    .site-footer {
-        .wrapper {
-            width: 90%;
-        }
+@media only screen and (max-width: 320px) {
+    .footer-list-header {
+        font-size: 2.2em
+    }
+    .footer-list-anchor {
+        font-size: 1.2em
+    }
+    .footer-social-connect {
+        font-size: 1.4em
+    }
+    .footer-social-overlap > a {
+        font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+        font-size: 0.8em
     }
 }

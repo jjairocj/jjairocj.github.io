@@ -10,9 +10,6 @@
     * [Comments](#comments)
     * [Post Contents](#post-contents)
     * [Code Highlight](#code-highlight)
-    * [Mobile Adaptation](#mobile-adaptation)
-    * [Footer](#footer)
-    * [Statistical Analysis](#statistical-analysis)
 * [Usage](#usage)
     * [1. Install ruby and jekyll environment](#1-install-ruby-and-jekyll-environment)
     * [2. Copy theme code](#2-copy-theme-code)
@@ -61,14 +58,6 @@ The post contents is fixed at the right side while page is scrolling. There will
 While the jekyll is update to 3.x.x, you can use github flavored markdown to write code.
 
 More info to see [syntax-highlighter-changed](https://jekyllrb.com/docs/upgrading/2-to-3/#syntax-highlighter-changed).
-
-### Footer
-
-**Please keep the theme to the original author info at footer.**[HyG](https://github.com/gaohaoyang).
-
-### Statistical Analysis
-
---Pending
 
 ## Usage
 

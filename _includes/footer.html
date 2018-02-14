@@ -1,34 +1,32 @@
-<footer class="site-footer">
 
 
-    <div class="wrapper">
-
-        <p class="description">
-            {% if site.description_footer %} {{site.description_footer}} {% endif %}
-        </p>
-        <br/>
-        <p class="contact">
-            Contáctame en: {% if site.github_username %}
-            <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a> {% endif %}
+<footer class="flex-rw">
+    <section class="footer-social-section flex-rw">
+      <span class="footer-social-overlap footer-social-connect">
+      CONTÁCTAME <span class="footer-social-small">en</span>
+      </span>
+        <span class="footer-social-overlap footer-social-icons-wrapper">
+            {% if site.github_username %}
+             <a href="https://github.com/{{site.github_username}}" class="generic-anchor" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a> {% endif %}
             {% if site.email %}
-            <a href="mailto:{{site.email}}" title="email"><i class="fas fa-envelope" aria-hidden="true"></i></a> {% endif %}
+            <a href="mailto:{{site.email}}" class="generic-anchor" title="email"><i class="fas fa-envelope" aria-hidden="true"></i></a> {% endif %}
             {% if site.twitter_username %}
-            <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
-            <a href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a> {% endif %}
+            <a href="https://twitter.com/{{site.twitter_username}}" class="generic-anchor"  title="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a> {% endif %} {% if site.facebook_username %}
+            <a href="https://www.facebook.com/{{site.facebook_username}}" class="generic-anchor" title="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a> {% endif %}
             {% if site.linkedIn_username %}
-            <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a> {% endif %}
+            <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}"  class="generic-anchor" title="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a> {% endif %}
             {% if site.whatsapp_username %}
-            <a href="https://api.whatsapp.com/send?phone={{site.whatsapp_username}}" title="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a> {% endif %}
+            <a href="https://api.whatsapp.com/send?phone={{site.whatsapp_username}}" class="generic-anchor"  title="WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a> {% endif %}
             {% if site.instagram_username %}
-            <a href="https://www.instagram.com/{{site.instagram_username}}" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a> {% endif %}
-        </p>
-        <p>
-            <i class="fab fa-pied-piper"></i>Jhon Jairo Cruz &copy; 2018 <i class="fab fa-empire"></i>
-        </p>
-        <p class="power">
-            <span>
-                Agradecimientos especiales a <a href="https://github.com/Gaohaoyang">HyG</a>.
-            </span>
-        </p>
-    </div>
+            <a href="https://www.instagram.com/{{site.instagram_username}}"  class="generic-anchor" title="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a> {% endif %}
+      </span>
+    </section>
+    <section class="footer-bottom-section flex-rw">
+        <div class="footer-bottom-wrapper">
+            <i class="fab fa-pied-piper"></i>Jhon Jairo Cruz &copy; 2018 <i class="fab fa-empire"></i><span class="footer-bottom-rights"> - All Rights Reserved - </span>
+        </div>
+        <div class="footer-bottom-wrapper">
+            <span> A veces tienes que desesperarte un poco para poder llegar a algún lado.</span>
+        </div>
+    </section>
 </footer>
