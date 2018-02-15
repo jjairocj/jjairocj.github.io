@@ -5,9 +5,36 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 13 Feb 2018 23:23:54 -0500</pubDate>
-    <lastBuildDate>Tue, 13 Feb 2018 23:23:54 -0500</lastBuildDate>
+    <pubDate>Wed, 14 Feb 2018 20:54:24 -0500</pubDate>
+    <lastBuildDate>Wed, 14 Feb 2018 20:54:24 -0500</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Cuanto tiempo durarás con tu pareja.</title>
+        <description>
+Hoy es día de San Valentín, y que es mejor sino investigar si nuestra relación tiene fecha de caducidad o estamos ante la persona correcta, nuestra alma gemela. Si esto les suena familiar seguramente es porque ya viste el capítulo de &lt;strong&gt;‘Black Mirror’, ‘Hang the DJ’&lt;/strong&gt;. Esto ya no lo considero spoiler, ya tuvieron tiempo para verlo.
+
+&lt;img src=&quot;/img/htdj1.jpg&quot; alt=&quot;Hang the DJ&quot; /&gt;
+
+</description>
+        <pubDate>Wed, 14 Feb 2018 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/2018/02/14/cuanto-tiempo-duraras-con-tu-pareja/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/14/cuanto-tiempo-duraras-con-tu-pareja/</guid>
+        
+        <category>futuro</category>
+        
+        <category>valentin</category>
+        
+        <category>software</category>
+        
+        <category>test</category>
+        
+        <category>amor</category>
+        
+        
+        <category>Tecnología</category>
+        
+      </item>
     
       <item>
         <title>Los perros de Boston Dynamics son algo perturbadores.</title>
