@@ -28,4 +28,4 @@ Eso ayudará de dos formas: la primera, ahorrar espacio en nuestros dispositivos
 
 Este nuevo formato podría tardar en llegar a nuestros smartphones, no obstante: el primer objetivo de las iSIM es ser una gran solución IoT que necesitan conectividad inalámbrica.
 
-Vía: [Xataka](https://www.pcper.com/news/General-Tech/ARM-Introduces-Kigen-OS-Cellular-IoT)
+Vía: [PcPer](https://www.pcper.com/news/General-Tech/ARM-Introduces-Kigen-OS-Cellular-IoT)
