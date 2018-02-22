@@ -2,12 +2,10 @@
 <module type="RUBY_MODULE" version="4">
   <component name="ModuleRunConfigurationManager">
     <shared />
-    <local />
   </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="io-console (v0.4.6, ruby-2.3.3-p222) [gem]" level="application" />
   </component>
 </module>
